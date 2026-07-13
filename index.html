@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Faozia Fariha — Computer Science graduate from CUET. Full-stack, AI/ML, and competitive programming portfolio." />
+  <meta name="theme-color" content="#0b0f1a" />
+  <title>Faozia Fariha — Portfolio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90' font-family='Space Grotesk' font-weight='700' fill='%237c5cff'%3EF%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <!-- Animated background -->
+  <div class="bg-aurora" aria-hidden="true">
+    <span class="blob blob-1"></span>
+    <span class="blob blob-2"></span>
+    <span class="blob blob-3"></span>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav">
+    <a href="#home" class="nav-logo">
+      <span class="logo-mark">F</span>
+      <span class="logo-text">Faozia<span class="dot">.</span></span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <p class="hero-eyebrow">Hi, I'm</p>
+        <h1 class="hero-name">
+          <span class="gradient-text">Faozia Fariha</span>
+        </h1>
+        <h2 class="hero-role">
+          <span class="typewriter" id="typewriter"></span><span class="caret">|</span>
+        </h2>
+        <p class="hero-tag">
+          CS Graduate · Full-Stack · AI/ML · Competitive Programmer
+          <span class="loc">— based in Chittagong, Bangladesh</span>
+        </p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects →</a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/faozia-fariha-449771229/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+          <span class="sep">·</span>
+          <a href="https://github.com/bountyhunter12" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+          <span class="sep">·</span>
+          <a href="https://codeforces.com/profile/bounty_hunter12" target="_blank" rel="noopener" aria-label="Codeforces">Codeforces</a>
+          <span class="sep">·</span>
+          <a href="https://www.kaggle.com/faoziafariha" target="_blank" rel="noopener" aria-label="Kaggle">Kaggle</a>
+          <span class="sep">·</span>
+          <a href="mailto:faoziafarihaaa@gmail.com" aria-label="Email">Email</a>
+        </div>
+
+        <a href="#about" class="scroll-cue" aria-label="Scroll to about">
+          <span></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <header class="section-head">
+        <span class="kicker">01 — About</span>
+        <h2 class="section-title">Summary</h2>
+      </header>
+      <div class="about-card reveal">
+        <p>
+          Recent Computer Science graduate from <strong>CUET</strong> with strong foundations in
+          algorithms, data structures, object-oriented design, and software engineering.
+          Experienced in building full-stack applications, backend systems, REST APIs, and
+          developer tools using <strong>Python, JavaScript, React, Flask, Node.js, Docker,</strong> and <strong>Git</strong>.
+        </p>
+        <p>
+          Quick learner with a competitive programming background
+          (<strong>500+ Codeforces problems solved</strong>) and hands-on experience adapting to new
+          technologies, collaborating across multiple domains, and using AI-assisted development
+          tools responsibly.
+        </p>
+
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">500+</span>
+            <span class="stat-label">CP problems solved</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">9+</span>
+            <span class="stat-label">Featured projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">6th</span>
+            <span class="stat-label">Worldwide — LT-EDI'25</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">200+</span>
+            <span class="stat-label">Students served</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <header class="section-head">
+        <span class="kicker">02 — Toolkit</span>
+        <h2 class="section-title">Skills</h2>
+      </header>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon">⌬</div>
+          <h3>Languages</h3>
+          <ul>
+            <li>Python</li><li>C</li><li>C++</li><li>JavaScript</li><li>SQL</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">⚙</div>
+          <h3>Software Engineering</h3>
+          <ul>
+            <li>OOP</li><li>Data Structures</li><li>Algorithms</li><li>System Design</li><li>SDLC</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">⟶</div>
+          <h3>Backend</h3>
+          <ul>
+            <li>Flask</li><li>FastAPI</li><li>Node.js</li><li>Express.js</li><li>REST APIs</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">◫</div>
+          <h3>Frontend</h3>
+          <ul>
+            <li>React.js</li><li>HTML</li><li>CSS</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">▤</div>
+          <h3>Databases</h3>
+          <ul>
+            <li>MySQL</li><li>MongoDB</li><li>Firebase</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">⎈</div>
+          <h3>DevOps</h3>
+          <ul>
+            <li>Git</li><li>GitHub</li><li>Docker</li><li>GitHub Actions</li><li>CI/CD</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">✦</div>
+          <h3>AI / ML</h3>
+          <ul>
+            <li>PyTorch</li><li>TensorFlow</li><li>Transformers</li><li>HuggingFace</li><li>NLP</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">⌘</div>
+          <h3>AI-assisted Dev</h3>
+          <ul>
+            <li>GitHub Copilot</li><li>ChatGPT</li><li>Claude</li><li>Cursor</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <header class="section-head">
+        <span class="kicker">03 — Education</span>
+        <h2 class="section-title">Education</h2>
+      </header>
+      <div class="edu-card reveal">
+        <div class="edu-mark">CUET</div>
+        <div class="edu-body">
+          <h3>Chittagong University of Engineering &amp; Technology</h3>
+          <p class="edu-degree">B.Sc. in Computer Science and Engineering</p>
+        </div>
+        <div class="edu-meta">
+          <span>Feb 2022 — Jun 2026</span>
+          <span class="badge">CGPA track · CSE</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <header class="section-head">
+        <span class="kicker">04 — Selected Work</span>
+        <h2 class="section-title">Projects</h2>
+        <p class="section-sub">A mix of full-stack systems, ML research, and developer tools.</p>
+      </header>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <header>
+            <h3><a href="https://github.com/bountyhunter12/NodeScape-StackTracers" target="_blank" rel="noopener">NodeScape — StackTracers</a></h3>
+            <span class="project-date">Oct 2024</span>
+          </header>
+          <p class="project-stack">React · Flask · Docker · GitHub Actions</p>
+          <ul class="project-points">
+            <li>Built a graph visualization platform from scratch while learning React, Flask, Docker, and GitHub Actions.</li>
+            <li>Designed REST APIs and implemented BFS/DFS graph traversal with interactive visualization.</li>
+            <li>Containerized the app and automated testing/deployment with GitHub Actions CI/CD.</li>
+          </ul>
+          <footer>
+            <a href="https://github.com/bountyhunter12/NodeScape-StackTracers" target="_blank" rel="noopener">GitHub ↗</a>
+          </footer>
+        </article>
+
+        <article class="project-card reveal">
+          <header>
+            <h3><a href="https://github.com/bountyhunter12/CUET-Thesis-and-Project-Portal" target="_blank" rel="noopener">CUET Thesis &amp; Project Portal</a></h3>
+            <span class="project-date">Mar 2025</span>
+          </header>
+          <p class="project-stack">React.js · Firebase</p>
+          <ul class="project-points">
+            <li>Centralized thesis &amp; project management portal used by 200+ students.</li>
+            <li>Implemented authentication, role-based access control, and real-time updates.</li>
+            <li>Reduced coordination overhead by 50% through workflow automation.</li>
+          </ul>
+          <footer>
+            <a href="https://github.com/bountyhunter12/CUET-Thesis-and-Project-Portal" target="_blank" rel="noopener">GitHub ↗</a>
+          </footer>
+        </article>
+
+        <article class="project-card reveal">
+          <header>
+            <h3><a href="https://github.com/bountyhunter12/MedicalChatbot" target="_blank" rel="noopener">Medical Chatbot (RAG Q/A)</a></h3>
+            <span class="project-date">Nov 2024</span>
+          </header>
+          <p class="project-stack">Flask · LangChain · Pinecone</p>
+          <ul class="project-points">
+            <li>Developed a Retrieval-Augmented Generation system for grounded medical Q/A.</li>
+            <li>Built PDF ingestion, text chunking, vector indexing, and semantic retrieval pipelines.</li>
+            <li>Integrated Flask APIs with real-time query handling via AJAX.</li>
+          </ul>
+          <footer>
+            <a href="https://github.com/bountyhunter12/MedicalChatbot" target="_blank" rel="noopener">GitHub ↗</a>
+          </footer>
+        </article>
+
+        <article class="project-card reveal">
+          <header>
+            <h3><a href="https://github.com/bountyhunter12/Bangla-Physics-MCQ-Challenge" target="_blank" rel="noopener">Bengali Physics MCQ QA</a></h3>
+            <span class="project-date">Jan 2025</span>
+          </header>
+          <p class="project-stack">Python · Qwen3-14B</p>
+          <ul class="project-points">
+            <li>Engineered an LLM reasoning pipeline processing 1,500+ Bengali MCQs.</li>
+            <li>Reduced parsing errors by 40% via regex-based correction mechanisms.</li>
+            <li>Benchmarked prompting strategies to achieve 82% accuracy in zero-shot settings.</li>
+          </ul>
+          <footer>
+            <a href="https://github.com/bountyhunter12/Bangla-Physics-MCQ-Challenge" target="_blank" rel="noopener">GitHub ↗</a>
+          </footer>
+        </article>
+
+        <article class="project-card reveal">
+          <header>
+            <h3><a href="https://github.com/bountyhunter12/Misogyny-Meme-Detection" target="_blank" rel="noopener">Misogyny-Meme Detection</a></h3>
+            <span class="project-date">Mar 2025</span>
+          </header>
+          <p class="project-stack">BERT · ViT · Multimodal DL</p>
+          <ul class="project-points">
+            <li>Multimodal hate speech detection combining textual and visual features.</li>
+            <li>Achieved <strong>6th Place Worldwide</strong> in the LT-EDI 2025 Shared Task.</li>
+          </ul>
+          <footer>
+            <a href="https://github.com/bountyhunter12/Misogyny-Meme-Detection" target="_blank" rel="noopener">GitHub ↗</a>
+          </footer>
+        </article>
+
+        <article class="project-card reveal">
+          <header>
+            <h3>Motivation-Mate</h3>
+            <span class="project-date">Jul 2024</span>
+          </header>
+          <p class="project-stack">Node.js · Express.js · React.js</p>
+          <ul class="project-points">
+            <li>Built RESTful backend services for tasks, blogs, timers, and productivity features.</li>
+            <li>Developed reusable frontend components and integrated backend APIs.</li>
+            <li>Improved API responsiveness and overall performance by 35%.</li>
+          </ul>
+          <footer>
+            <a href="https://github.com/lamiatasnimkhan/Motivation-Mate-Frontend" target="_blank" rel="noopener">Frontend ↗</a>
+            <a href="https://github.com/madiha-ahmed-chowdhury/MotivationMate-Backend" target="_blank" rel="noopener">Backend ↗</a>
+          </footer>
+        </article>
+
+        <article class="project-card reveal">
+          <header>
+            <h3><a href="https://github.com/bountyhunter12/TuitionEase" target="_blank" rel="noopener">TuitionEase</a></h3>
+            <span class="project-date">Mar 2024</span>
+          </header>
+          <p class="project-stack">PHP · MySQL · JavaScript</p>
+          <ul class="project-points">
+            <li>Optimized SQL queries, reducing latency by 28%.</li>
+            <li>Designed scheduling workflows that lowered booking conflicts by 60%.</li>
+          </ul>
+          <footer>
+            <a href="https://github.com/bountyhunter12/TuitionEase" target="_blank" rel="noopener">GitHub ↗</a>
+          </footer>
+        </article>
+
+        <article class="project-card reveal">
+          <header>
+            <h3><a href="https://github.com/bountyhunter12/pathfinding-visualizer" target="_blank" rel="noopener">Pathfinding Visualizer</a></h3>
+            <span class="project-date">Aug 2024</span>
+          </header>
+          <p class="project-stack">React.js · JavaScript</p>
+          <ul class="project-points">
+            <li>Interactive visualizer for Dijkstra's shortest path algorithm in real time.</li>
+            <li>Dynamic grid manipulation with walls, reset, and path-clearing controls.</li>
+          </ul>
+          <footer>
+            <a href="https://github.com/bountyhunter12/pathfinding-visualizer" target="_blank" rel="noopener">GitHub ↗</a>
+          </footer>
+        </article>
+
+        <article class="project-card reveal">
+          <header>
+            <h3><a href="https://github.com/bountyhunter12/Trie_Visualizer" target="_blank" rel="noopener">Trie Autocomplete Visualizer</a></h3>
+            <span class="project-date">Sep 2024</span>
+          </header>
+          <p class="project-stack">Python · Streamlit · Graphviz · Gemini API</p>
+          <ul class="project-points">
+            <li>Interactive Trie-based autocomplete with efficient prefix search &amp; insertion.</li>
+            <li>Integrated Google Gemini API with local fallback after adapting to API changes.</li>
+            <li>Visualized Trie structures with Graphviz to show prefix-sharing behavior.</li>
+          </ul>
+          <footer>
+            <a href="https://github.com/bountyhunter12/Trie_Visualizer" target="_blank" rel="noopener">GitHub ↗</a>
+          </footer>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <header class="section-head">
+        <span class="kicker">05 — Experience</span>
+        <h2 class="section-title">Industrial Attachment</h2>
+      </header>
+
+      <div class="exp-card reveal">
+        <div class="exp-head">
+          <h3>Trainee — BRAC IT Services Ltd.</h3>
+          <span class="exp-date">Nov 2024</span>
+        </div>
+        <ul>
+          <li>Rotated across <strong>AI Engineering, DevOps, Cybersecurity, SQA, Data Engineering,</strong> and <strong>Web Development</strong> teams.</li>
+          <li>Gained exposure to SDLC, deployment workflows, testing practices, and production infrastructure.</li>
+          <li>Collaborated with engineers across multiple domains and quickly adapted to unfamiliar technologies.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CP -->
+    <section id="cp" class="section">
+      <header class="section-head">
+        <span class="kicker">06 — Competitive Programming</span>
+        <h2 class="section-title">Competitive Programming</h2>
+      </header>
+
+      <div class="cp-grid">
+        <div class="cp-card reveal">
+          <h3>Pupil · Codeforces</h3>
+          <p>Solved <strong>500+</strong> algorithmic problems spanning data structures, graph theory, dynamic programming, and problem solving.</p>
+          <a class="pill" href="https://codeforces.com/profile/bounty_hunter12" target="_blank" rel="noopener">@bounty_hunter12 ↗</a>
+        </div>
+        <div class="cp-card reveal">
+          <h3>26th — National Girls' Programming Contest</h3>
+          <p>Feb 2023 · National-level competitive programming contest in Bangladesh.</p>
+          <span class="pill ghost">National · 2023</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section">
+      <header class="section-head">
+        <span class="kicker">07 — Recognition</span>
+        <h2 class="section-title">Achievements</h2>
+      </header>
+
+      <ul class="ach-list">
+        <li class="ach-item reveal">
+          <span class="ach-tag gold">Champion</span>
+          <div>
+            <h3>NodeScape Hackathon</h3>
+            <p>Jul 2025 — Built an AI-powered graph classification platform with Dockerized CI/CD; ranked 1st among 40+ teams.</p>
+          </div>
+        </li>
+        <li class="ach-item reveal">
+          <span class="ach-tag">Finalist</span>
+          <div>
+            <h3>CUET Intra-University ML Contest</h3>
+            <p>Jan 2025 — Recognized for the Bengali Physics MCQ reasoning system.</p>
+          </div>
+        </li>
+        <li class="ach-item reveal">
+          <span class="ach-tag accent">6th Worldwide</span>
+          <div>
+            <h3>LT-EDI 2025 Shared Task</h3>
+            <p>May 2025 — Multimodal misogyny detection challenge.</p>
+          </div>
+        </li>
+        <li class="ach-item reveal">
+          <span class="ach-tag">Top 7</span>
+          <div>
+            <h3>HackCSB</h3>
+            <p>Sep 2024 — National hackathon finalist.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- CERTS -->
+    <section id="certs" class="section">
+      <header class="section-head">
+        <span class="kicker">08 — Learning</span>
+        <h2 class="section-title">Certifications</h2>
+      </header>
+
+      <div class="cert-grid">
+        <div class="cert-card reveal">
+          <span class="cert-icon">🎓</span>
+          <h3>Advanced Learning Algorithms</h3>
+          <p>Coursera · Jan 2024</p>
+        </div>
+        <div class="cert-card reveal">
+          <span class="cert-icon">🎓</span>
+          <h3>Supervised Machine Learning</h3>
+          <p>Coursera · Feb 2024</p>
+        </div>
+        <div class="cert-card reveal">
+          <span class="cert-icon">🎓</span>
+          <h3>Mobile App Development</h3>
+          <p>Bangladesh Computer Council · Apr 2025</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <header class="section-head">
+        <span class="kicker">09 — Say Hello</span>
+        <h2 class="section-title">Let's build something together.</h2>
+        <p class="section-sub">Open to full-stack, AI/ML, and backend roles. Drop a line anytime.</p>
+      </header>
+
+      <div class="contact-grid">
+        <a class="contact-card reveal" href="mailto:faoziafarihaaa@gmail.com">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">faoziafarihaaa@gmail.com</span>
+        </a>
+        <a class="contact-card reveal" href="tel:+8801309724762">
+          <span class="contact-label">Phone</span>
+          <span class="contact-value">+880 1309 724 762</span>
+        </a>
+        <a class="contact-card reveal" href="https://www.linkedin.com/in/faozia-fariha-449771229/" target="_blank" rel="noopener">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">faozia-fariha</span>
+        </a>
+        <a class="contact-card reveal" href="https://github.com/bountyhunter12" target="_blank" rel="noopener">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">bountyhunter12</span>
+        </a>
+        <a class="contact-card reveal" href="https://codeforces.com/profile/bounty_hunter12" target="_blank" rel="noopener">
+          <span class="contact-label">Codeforces</span>
+          <span class="contact-value">bounty_hunter12</span>
+        </a>
+        <a class="contact-card reveal" href="https://www.kaggle.com/faoziafariha" target="_blank" rel="noopener">
+          <span class="contact-label">Kaggle</span>
+          <span class="contact-value">faoziafariha</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Faozia Fariha · Built with ♥ and shipped to the web.</p>
+    <p class="footer-mini">Designed for clarity · Optimized for recruiters</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
